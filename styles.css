@@ -1,0 +1,170 @@
+html,
+body{
+	margin: 0;
+	padding: 0;
+	font-family:"Thaoma" , "Arial", "helvetica";
+	font-size:16px;
+	
+}
+.horizontal-block{
+	display: block;
+	width: 100%;
+	min-height: 50px;
+}
+.focused_content{
+	width: 960px;
+	margin: 0 auto;
+	/*border: 1px solid #888;*/
+}
+
+#head{
+	background-color: #656564;
+	height: 74px;
+	
+}
+#logo{
+	padding:10px 10px 10px 10px;
+	float:left;
+}
+#slider{
+	
+}
+#menu ul li{
+	display:inline;
+}
+#menu{
+	display: block;
+	height: 56px;
+	width: 440px;
+	padding: 21px 0 0 7px;
+	float:right;
+}
+#menu a{
+	font-weight:normal;
+	color:#FFF;
+	text-decoration:none;
+	padding: 25px 13px 42px;
+}
+#menu ul{
+	margin-top: 3px;
+	
+}
+#aboutme{
+	height:482px;
+	background-color:#d1d3d3;
+}
+#home{
+	height:403px;
+	background-color:#000000;
+	
+}
+.icon{
+	padding:30px 101px 5px 20px;
+	width:185px;
+	height:185px;
+
+}
+.icon h3{
+	width:198px;
+	color:#656564;
+}
+#aboutme ul li{
+	float:left;
+	display:block;
+}
+.txt{
+	color:#888888;
+	font-family:"Tahoma" , "Arial", "helvetica";
+	font-size:15px;
+	
+	display:block;
+	width:243px;	
+}
+#programs{
+	height:94px;
+	background-color:#656564;
+}
+#work{
+	
+	height:552px;
+	background: #FFF;
+}
+#central{
+	margin-top:22px;
+	margin-left:40px;
+	width:1138px;
+	height:513px;
+	float:left;
+	background:#fff;
+	}
+.gal{
+	list-style: none;
+	float:left;
+	}
+.min{
+	width:75px;
+	height:64px; 
+	padding: 6px 20px 20px 7px;
+	}
+.max{
+	visibility:hidden;
+	position:absolute;
+	top:1116px; 
+	left:530px;
+	margin-left: 5px;
+	}
+a:hover .max{
+	visibility: visible;
+	}
+#list_program ul li{
+	display:inline;
+}
+#list_program ul{
+
+	float:left;
+	height:30px;
+}
+#list_program li{
+	margin-left:48px;
+	margin-top:10px;
+}
+#contact{
+	background-color:#656564;
+	height:126px;
+}
+
+#phone{
+	width:172px;
+	height:25px;
+	float:left;
+	padding:20px 10px 20px 10px;
+}
+#mail{
+	width:172px;
+	padding:0px 10px 0 10px;
+}
+#ico_phone{
+	float:left;
+	
+}
+.txt1{
+	float:left;
+	margin-top:7px;
+	margin-left:8px;
+	color:#fff;
+	font-family:"Tahoma" , "Arial", "helvetica";
+	font-size:19px;
+}
+.txt2{
+	
+	margin-top:-29px;
+	margin-left:46px;
+	color:#fff;
+	font-family:"Tahoma" , "Arial", "helvetica";
+	font-style:italic;
+	font-size:14px;
+}
+#logo_footer{
+	float:right;
+	margin-top:-43px;
+}
