@@ -6,6 +6,9 @@ body{
 	font-size:16px;
 	
 }
+ul{
+	margin:0;
+}
 .horizontal-block{
 	display: block;
 	width: 100%;
@@ -123,6 +126,7 @@ a:hover .max{
 
 	float:left;
 	height:30px;
+	padding:17px;
 }
 #list_program li{
 	margin-left:48px;
