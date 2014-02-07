@@ -150,7 +150,6 @@ ul.gal li a {
 	display:block;
 	margin:auto;
 	width:60%;
-	border:5px solid #80aa1c;
 }
 @media (max-width: 1200px){
 	.focused_content{
