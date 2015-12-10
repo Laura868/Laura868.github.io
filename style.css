@@ -1,0 +1,345 @@
+*{
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+.body{
+	font-family: tahoma;
+}
+
+img {
+ 	width:100%;
+ 	max-height:100%; 
+ 	overflow: hidden;
+ 	margin:auto; 
+  	display:block;
+  }
+
+/*menu*/
+
+header nav{
+	background: #80aa1c;
+	margin-bottom: 0px;
+}
+header nav ul{
+	list-style: none;
+	overflow: hidden;
+}
+header nav ul li{
+	float: right;
+	width: 100%;
+}
+@media (min-width: 800px) {
+	header nav ul li {
+		width: 18%;
+		float: right;	
+	}
+}
+header nav ul li a{
+	display: block;
+	padding: 20px;
+	color: #fff;
+	text-decoration: none;
+}
+header nav ul li a:hover{
+	background: #2980b9;
+}
+.menu-fixed{
+	position: fixed;
+	z-index: 1000;
+	top: 0;
+	width: 100%;
+}
+
+/*works gallery*/
+
+.gallery{
+	width: 100%;
+}
+.box{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	text-align: center;
+	float: left;
+}
+
+@media (min-width: 600px) {
+	.box {
+		width: 50%;	
+	}
+}
+.info{
+	position: absolute;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+
+/*hover efect*/
+		section .box h2{
+		text-transform: uppercase;
+		margin-top: 40px;
+		color: #fff;
+		text-align: center;
+		position: relative;
+		font-size: 17px;
+		padding: 10px;
+		background: rgba(0, 0, 0, 0.9);
+		
+		}
+		section .box p{
+		font-size: 12px;
+		position: relative;
+		color: #fff;
+		padding: 10px 20px 10px;
+		text-align: center
+		}
+		section .box a.link{
+		display: inline-block;
+		text-decoration: none;
+		padding: 7px 14px;
+		background: #222;
+		color: #fff;
+		text-transform: uppercase;
+		box-shadow: 0 0 1px #000
+		}
+		section .box:hover {
+		box-shadow: 0 0 5px #000
+		}	
+		section .box img{
+			transition:all 0.2 linear;
+			overflow: hidden;
+			width: 100%;
+		}	
+		section .box .info{
+			opacity: 0;
+			background-color: rgba(46,157,120,0.7);
+			transition:all 0.3s ease-in-out;
+		}
+		section .box  h2 {
+			transform: translateX(-200px);/*Desplazamos a la izquierda*/
+			opacity: 0;
+			transition: all 0.7s ease-in-out;
+            }
+		section .box  p {
+			transform: translateX(200px);/*Desplazamos a la derecha*/
+			opacity: 0;
+			transition: all 0.4s linear;
+			}
+		section .box a.link{
+			opacity: 0;
+			transition: all 0.4s ease-in-out;
+			transform: translateY(100px); /*Desplazamos para abajo*/
+			}
+		section .box:hover .info {
+			opacity: 1;
+			}
+		section .box:hover h2,
+		section .box:hover p,
+		section .box:hover a.link {
+			opacity: 1;
+			transform: translateX(0px);/*Regresamos a las posiciones originales*/
+			}
+		section .box:hover p {
+			transition-delay: 0.1s;
+			}
+		section .box:hover a.link {
+			transition-delay: 0.2s; /*Aplicamos un pequeño retardo para que se muestre al final*/
+			transform: translateY(0px);
+			}
+
+/*skills bar*/
+	
+.bottombar{
+	background-color: #80aa1c;
+	width: 100%;
+	height: 100%;
+	float: left;	
+}
+.skillboxes{
+	width: 12.5%;
+	float: left;
+}
+
+
+/*paginas interiores*/
+
+.maintext{
+    width: 100%;
+    min-width: 150px;
+    font-family: Tahoma;
+    font-size:2.25em;
+    font-weight: normal;
+    padding: 6em 0px;
+    color: #E0201B;
+    text-align: center;
+}
+
+.maintext h1 {
+    padding: 0px 50px;
+}
+
+.maintext p{
+	text-align: center;
+}
+p{
+	color:black;
+	font-family: Tahoma;
+	text-align: left;
+	margin-left: 30%;
+	margin-right: 30%;
+	font-weight: 400;
+    font-size: 16px;
+    margin-top: 15px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    text-rendering: optimizelegibility;
+
+}
+
+.explanation{
+	width: 100%;
+	font-family: Tahoma;
+	text-align: center;
+	font-size:1.5em;
+	font-weight: normal;
+	line-height: 28px;
+	color: #E0201B;
+	padding: 4em;
+	font-weight: lighter;
+ }
+h1{
+	font-weight: normal;
+
+}
+h6{
+ 	color:grey;
+ 	font-weight: lighter;
+ }
+ /*footer*/
+ .bottom{
+ 	width: 100%;
+ 	/*background-color: black;*/
+ }
+ .boxes{
+ 	width:100%;
+ 	height: 200px;
+ 	margin: 25px 17px 40px;
+ 	background-color: green;
+ 	display: inline-block;
+ }
+ @media (min-width: 600px) {
+	.boxes {
+		width: 50%;	
+	}
+
+ .review{
+ 	width: 100%;
+ }
+ .boxbottom{
+ 	width: 33.3%;
+ 	padding: 10px;
+ 	float:left;
+
+ }
+ /*arrow scroll down*/
+ 
+ }
+ .arrow{
+ 	border: 0;
+ 	position:fixed;
+ 	text-align: center;
+ 	font-size: 50px;
+ 	color: white;
+ }
+ /*footer*/
+ .contact{
+ 	width: 100%;
+ 	height: 200px;
+ 	background: #80aa1c;
+ 	clear: both;
+ 	
+ }
+ .phone {
+ 	width: 32%;
+ 	color: white;
+ 	float: left;
+ 	position: absolute;
+	margin: 0px;
+}	
+ .phone img{
+ 	width: 20%;
+ 	float: left;
+ }
+ .mail{
+ 	width: 6%;
+ 	color: white;
+ 	float: left;
+ 	position: absolute;
+ 	margin-top: 44px;
+	
+ }
+ .data{
+ 	width: 44%;
+ 	float: right;
+ 	position: relative;
+ 	clear: both;
+ 	margin-top: 73px;
+ }
+ .name{
+ 	width: 18%;
+ 	padding: 28px 25px 25px 23px;
+ 	position: absolute;
+ }
+ .number{
+ 	position: absolute;
+	top: 50%;
+	height: 40px;
+	margin-top: -10px; /* account for padding and border if not using box-sizing: border-box; */
+	margin-left: 50px;
+ }
+
+  /*about me*/
+  #about{
+  	width:100%;
+ 	max-height:100%; 
+ 	overflow: hidden;
+ 	margin:auto; 
+  	display:block;
+  }
+  .pict{
+  	width: 100%;
+  	min-width: 150px;
+  }
+
+
+ .ph{
+ 	float: left;
+ 	width: 20%;
+ 	margin-top: 65px;
+ }
+
+ .album{
+ 	width: 100%;
+ 	background-image: url("img/background-textures.jpg");
+ 	overflow: hidden;
+ 	clear: both;
+ }
+ .box1:hover{
+ 	transform: scale(1.2,1.2);
+ }
+
+ .box1{
+ 	width: 18%;
+	margin: 11px;
+	float: left;
+ 	max-height:100%; 
+ 	overflow: hidden;
+  	display:block;
+}
