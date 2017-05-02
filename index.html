@@ -1,266 +1,563 @@
 <!DOCTYPE html>
 <html lang="en">
-
-	<head>
-		<title>Laura Vicente graphic designer</title>
-		<meta charset="utf-8"/>
-		<script src="js/jquery.js"></script>
-		<script src="html5lightbox/jquery.js"></script>
-		<script src="js/main.js"></script>
-		<script type="text/javascript" src="html5lightbox/html5lightbox.js"></script>
-		<link rel="stylesheet" type="text/css" href="style.css">
-		<link rel="stylesheet" href="fonts.css">
-		<meta name="viewport" content="width=device-with, initial-scale=1.0">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
-	</head>
+        <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+        <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic' rel='stylesheet' type='text/css'>
+        <title>Laura Portfolio</title>
+    </head>
+    <body>
+        <header id="front">
+            <nav>
+                <div class="row">
+                    <img src="resources/img/logowhite.png" alt="Laura logo" class="logo">
+                    <a href="#front"><img src="resources/img/logo.png" alt="Laura logo" class="logo-black"></a>
+                    <ul class="main-nav js--main-nav">
+                        <li><a href="#features">about me</a></li>
+                        <li><a href="#works">works</a></li>
+                        <li><a href="#references">references</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                    <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
+                </div>
+            </nav>
+            <div class="intro-text-box">
+                <h1>Laura Vicente Portfolio<br>UX / Grapic Designer </h1>
+            </div>
+            <div class="btn-text-box">
+                <a class="btn btn-full js--scroll-to-plans" href="#works">work</a>
+                <a class="btn btn-ghost js--scroll-to-start" href="#features">Show me more</a>
+            </div>
+        </header>
+        
+        <section class="section-features js--section-features" id="features">
+            <div class="row">
+                <h2>about me &mdash; short introduction</h2>
+                <p class="long-copy">
+                    Hello, my name is Laura. I have a background in Arts and Graphic Design and I am currently studying UX Design at Kingston University. I plan to be available to work following my studies. I have keen interest in User Center design and I belive find a challenging work environment would be beneficial for advancing in my career.
+                </p>
+            </div>
+            
+            <div class="row js--wp-1">
+                <h2>tools</h2>
+                <div class="col span-1-of-4 box">
+                    <h3>Design</h3>
+                    <img src="resources/img/ai.png" alt="illustrator">
+                    <img src="resources/img/ps.png" alt="illustrator">
+                </div>
+                <div class="col span-1-of-4 box">
+                    <h3>web coding</h3>
+                    <img src="resources/img/html5.png" alt="html5">
+                    <img src="resources/img/css3.png" alt="css3">
+                </div>
+                <div class="col span-1-of-4 box">
+                    <h3>Presentations</h3>
+                    <img src="resources/img/ico-02.png" alt="powerpoint">
+                    <img src="resources/img/ico-01.png" alt="powepoint">
+                </div>
+                <div class="col span-1-of-4 box">
+                    <h3>prototyping</h3>
+                    <img src="resources/img/ico-04.png" alt="justinmind">
+                    <img src="resources/img/ico-03.png" alt="invision">
+                </div>
+            </div>   
+        </section>
+                
+       
+        <section class="section-gallery" id="works">
+            
+            <div class="gallery_column clearfix">
+                <div class="box_small">
+                <a class="a-gallery" href="#flow">
+                    <img src="resources/img/flow.jpg" alt="flow" />
+                </a>
+                </div>
 
+                <div class="box_small">
+                    <a class="a-gallery" href="#emotion">
+                    <img src="resources/img/emotion.png" alt="other">
+                    </a>
+                </div>
+            </div>
 
-	<body class="body">
+            <div class="gallery_column clearfix">
+                <div class="box_small">
+                    <a class="a-gallery" href="#magnetic">
+                        <img src="resources/img/magnetic.png" alt="magnetic">
+                    </a>
+                </div>
+                <div class="box_small">
+                    <a class="a-gallery" href="#clowntown">
+                      <img src="resources/img/flyerclown.png" alt="clowntown">
+                    </a>
+                </div>
 
-		<header>
-				<div>
-					<img src="img/ojo.png" alt="front" />
-				</div>
-				<nav class="menu">
-					<ul>
-						<li><a href="#contact">CONTACT</a></li>
-						<li><a href="#about">ABOUT ME</a></li>
-						<li><a href="#work">WORK</a></li>
-						
-					</ul>
-				</nav>
-		</header>
+            </div>
 
+            <div class="gallery_column clearfix">
+                <div class="box_small">
+                <a class="a-gallery" href="#2litle">
+                    <img src="resources/img/2litle.jpg" alt="2litle" />
+                </a>
+                </div>
 
+                <div class="box_small">
+                    <a class="a-gallery" href="#2other">
+                    <img src="resources/img/inprocess-01.png" alt="2other">
+                    </a>
+                </div>
+            </div>
 
-		<section class="gallery" id="work">
+            <div class="gallery_column clearfix">
+                <div class="box_small">
+                <a class="a-gallery" href="#wine">
+                    <img src="resources/img/wine.png" alt="wine">
+                </a>
+                </div>
 
-			<div class="box">
-				<img src="img/flow.jpg" alt="flow" />
-				<div class="info">
-					<h2>Flow</h2>
-					<p>Juice Brand and Packaging</p>
-					<a class="link" href="flow.html">More</a>
-				</div>
-			</div>
-
-			<div class="box">
-				<img src="img/2litle.jpg" alt="2lite">
-				<div class="info">
-					<h2>2LITE</h2>
-					<p>Corporate Identity</p>
-					<a class="link" href="2litle.html">More</a>
-				</div>
-			</div>
-
-			<div class="box">
-				<img src="img/send&amp;store.png" alt="sendandstore">
-				<div class="info">
-					<h2>Send&amp;Store</h2>
-					<p>Web Design</p>
-					<a class="link" href="sendandstore.html">More</a>
-				</div>
-			</div>
-
-			<div class="box">
-				<img src="img/flyerclown.png" alt="flyerclown">
-				<div class="info">
-					<h2>Clown Town</h2>
-					<p>Advertising Graphic</p>
-					<a class="link" href="clown.html">More</a>
-				</div>
-			</div>
-
-			<div class="box">
-				<img src="img/hamiltonflyer.png" alt="flyerHamlton">
-				<div class="info">
-					<h2>Hamilton-Brown</h2>
-					<p>Flyer</p>
-					<a class="link" href="hamilton.html">More</a>
-				</div>
-			</div>
-
-			<div class="box">
-				<img src="img/tegestiona.png" alt="tegestiona">
-				<div class="info">
-					<h2>Tegestiona</h2>
-					<p>Branding</p>
-					<!--<<a class="link" href="clown.html">More</a>-->
-				</div>
-			</div>
-
-
-			<div class="box">
-				<img src="img/pearljamvs.png" alt="pearljam">
-				<div class="info">
-					<h2>Pearl jam Cd</h2>
-					<p>Redesign CD</p>
-					<a class="link" href="pearljam.html">More</a>
-				</div>
-			</div>
-
-			<div class="box">
-				<img src="img/emotions.png" alt="emotions">
-				<div class="info">
-					<h2>One emotion for each day</h2>
-					<p>Personal Project</p>
-					<a class="link" href="emotion.html">More</a>
-				</div>
-			</div>
-
-			<div class="box">
-				<img src="img/panasonic.png" alt="panasonic">
-				<div class="info">
-					<h2>Panasonic</h2>
-					<p>A4 flyer for an established comapany</p>
-					<a class="link" href="panasonic.html">More</a>
-				</div>
-			</div>
-
-			<div class="box">
-				<img src="img/magnetic.png" alt="magnetic">
-				<div class="info">
-					<h2>Magnetic</h2>
-					<p>Campaign Digital/Print</p>
-					<a class="link" href="magnetic.html">More</a>
-				</div>
-			</div>
-
-
-			<div class="box">
-				<img src="img/amal.png" alt="amal">
-				<div class="info">
-					<h2>Amal</h2>
-					<p>Poster</p>
-					<a class="link" href="amal.html">More</a>
-				</div>
-			</div>
-
-			<div class="box">
-				<img src="img/multidsign.png" alt="multidesign">
-				<div class="info">
-					<h2>MultiDesign</h2>
-					<p>Design Agency</p>
-					<a class="link" href="multidesign.html">More</a>
-				</div>
-			</div>
-
-			<div class="box">
-				<img src="img/gender.png" alt="gender">
-				<div class="info">
-					<h2>Gender Violence</h2>
-					<p>Poster</p>
-					<a class="link" href="gender.html">More</a>
-				</div>
-			</div>
-
-			<div class="box">
-				<img src="img/mamamia.png" alt="mammamia">
-				<div class="info">
-					<h2>MammaMia</h2>
-					<p>Corporate Identity</p>
-					<a class="link" href="mamamia.html">More</a>
-				</div>
-			</div>
-
-			
-			<div class="box">
-				<img src="img/seijaenvases.png" alt="seijasenvases">
-				<div class="info">
-					<h2>Seijas Envases</h2>
-					<p>Wordpress</p>
-					<a class="link" href="seijasenvases.html">More</a>
-				</div>
-			</div>
-
-
-			<div class="box">
-				<img src="img/blidness.png" alt="blindness">
-				<div class="info">
-					<h2>Redesign</h2>
-					<p>Book</p>
-					<a class="link" href="blind.html">More</a>
-				</div>
-			</div>
-
-			<div class="box">
-				<img src="img/recycling.jpg" alt="recycling">
-				<div class="info">
-					<h2>Recycling</h2>
-					<p>Poster</p>
-					<a class="link" href="recycling.html">More</a>
-				</div>
-			</div>
-
-			<div class="box">
-				<img src="img/drawings.png" alt="dwawings">
-				<div class="info">
-					<h2>Drawings</h2>
-					<p>Sketches</p>
-					<!--<a class="link" href="">More</a>-->
-				</div>
-			</div>
-
+                <div class="box_small">
+                <a class="a-gallery" href="#blindness">
+                    <img src="resources/img/blidness.png" alt="blindness">
+                </a>
+                </div>
+            </div>
 		</section>
-
-		<section class="bottombar">
-				<div class="skillboxes">
-					<img src="img/ai.png" alt="ai">
-				</div>
-				<div class="skillboxes">
-					<img src="img/ps.png" alt="ps">
-				</div>
-				<div class="skillboxes">
-					<img src="img/id.png" alt="id">
-				</div>
-				<div class="skillboxes">
-					<img src="img/fl.png" alt="fl">
-				</div>
-				<div class="skillboxes">
-					<img src="img/pr.png" alt="pr">
-				</div>
-				<div class="skillboxes">
-					<img src="img/html5.png" alt="html5">
-				</div>
-				<div class="skillboxes">
-					<img src="img/css3.png" alt="css3">
-				</div>
-				<div class="skillboxes">
-					<img src="img/js.png" alt="js">
-				</div>
-		</section>
-
-		<section id="about">
-			
-  			<img src="img/mapa6.jpg" alt="aboutme">
-
-		</section>
-
-	<footer>
-		<div class="contact" id="contact">
-			<div class="name">
-			<img src="img/name1.png" alt="name" />
-			</div>
-			<div class="data">
-				<div class="phone">
-					<div class="phone-image">
-						<img src="img/phone.png" alt="phone" />
-					</div>
-					<div class="number">
-						07707433078
-					</div>
-				</div>
-				<div class="mail">
-					<div class="phone-image">
-						<img src="img/mail.png" alt="mail" />
-					</div>
-					<div class="number">
-						vicentecarreralaura3@gmail.com
-					</div>
-				</div>
-			</div>
-		</div>
-	</footer>
-	</body>
-
+         <!-- CONTENT ASSOCIATED -->
+        <a class="content-gallery" id="blindness">
+             <section class="section-steps">
+            <div class="row">
+                <h2>Open your eyes! &mdash; We are blind, Blind but seeing, Blind people who can see, but do not see</h2>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-2 steps-box">
+                    <img src="resources/img/blindness.png" alt="blidness" class="app-screen js--wp-2">
+                    <img src="resources/img/blindness2.png" alt="blidness" class="app-screen js--wp-2">
+                </div>
+                <div class="col span-1-of-2 steps-box">
+                    <div class="works-step clearfix">
+                        <div>1</div>
+                        <p>I really like this book and although I think the current book design cover is brilliant I wanted to create another design based on illustration instead of based on typography, just another point of view.</p>
+                    </div>
+                    <div class="works-step clearfix">
+                        <div>2</div>
+                        <p>Blindness is meant as a wake up call, as a portrait of the world as it is now, a nudge to truly accept the world as we see it around us and to act accordingly.</p>
+                    </div>
+                    <div class="works-step clearfix">
+                        <div>3</div>
+                        <p>Conveying the idea of confusion in a society immersed in a blindness epidemic and the only woman able to see in the middle of the chaos.</p>
+                    </div>
+                </div>
+            </div>
+            </section>
+        </a>
+        <a class="content-gallery" id="2other">
+             <section class="section-steps">
+            <div class="row">
+                <h2>How it works &mdash; Simple as 1, 2, 3</h2>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-2 steps-box">
+                    <img src="resources/img/inprocess-01.png" alt="inprocess" class="app-screen js--wp-2">
+                </div>
+                <div class="col span-1-of-2 steps-box">
+                    <div class="works-step clearfix">
+                        <div>1</div>
+                        <p>First idea</p>
+                    </div>
+                    <div class="works-step clearfix">
+                        <div>2</div>
+                        <p>Second idea</p>
+                    </div>
+                    <div class="works-step clearfix">
+                        <div>3</div>
+                        <p>Third idea</p>
+                    </div>
+                </div>
+            </div>
+            </section>
+        </a>
+         <a class="content-gallery" id="emotion">
+             <section class="section-steps">
+            <div class="row">
+                <h2>App to enhance social skills in autistic children &mdash; Simple as 1, 2, 3</h2>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-2 steps-box">
+                     <iframe width="972" height="720" src="https://projects.invisionapp.com/share/TYBJBQKUQ#/screens" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="row">
+                 <img src="resources/img/logo1.png" alt="memotion" class="app-screen js--wp-2"> 
+               
+                <div class="col span-1-of-2 steps-box">
+                    <div class="works-step clearfix">
+                        <div>1</div>
+                        <p>the aim of this project is to have an application that allows them to enjoy themselves at the same time as they are learning emotions and social skills.The target audience are four year-old children and upwards</p>
+                    </div>
+                    <div class="works-step clearfix">
+                        <div>2</div>
+                        <p>provide a high-customization for parents in order to be as adaptable as possible to the different autistic spectrum of children. It should be mistake-free to reduce frustration as autistic children usually are really perfectionists and have incredibly high standards for themselves so they would feel really uncomfortable if they failed.</p>
+                    </div>
+                    <div class="works-step clearfix">
+                        <div>3</div>
+                        <p>It should be based on clear instructions and help them in the coordination and communication with other children as well as help them make decisions and encourage them to enjoy social activities apart from the core objective of teaching them to distinguish between different emotions.</p>
+                    </div>
+                </div>
+            </div>     
+            </section>
+        </a>
+         <a class="content-gallery" id="wine">
+             <section class="section-steps">
+            <div class="row">
+                <h2>Wine label &mdash; Severo</h2>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-2 steps-box">
+                    <img src="resources/img/sketche.png" alt="wine label" class="app-screen js--wp-2">
+                    <img src="resources/img/sketches2.png" alt="wine label" class="app-screen js--wp-2">
+                     <img src="resources/img/wine.png" alt="wine label" class="app-screen js--wp-2">
+                     <img src="resources/img/wineback.jpg" alt="wine label" class="app-screen js--wp-2">
+                </div>
+                <div class="col span-1-of-2 steps-box">
+                    <div class="works-step clearfix">
+                        <div>1</div>
+                        <p>Branding for a Spanish wine label</p>
+                    </div>
+                    <div class="works-step clearfix">
+                        <div>2</div>
+                        <p>Handmade typography</p>
+                    </div>
+                    <div class="works-step clearfix">
+                        <div>3</div>
+                        <p>Idea based on the wire of the vineyard and the shape of the vines</p>
+                    </div>
+                </div>
+            </div>
+            </section>
+        </a>
+         <a class="content-gallery" id="flow">
+             <section class="section-steps">
+            <div class="row">
+                <h2>Go on a Flavourful Journey &mdash; Discover a new juice brand</h2>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-2 steps-box">
+                    <img src="resources/img/flow_smalllogo.png" alt="logo" class="app-screen js--wp-2">
+                </div>
+                <div class="col span-1-of-2 steps-box">
+                    
+                    <div class="works-step clearfix">
+                        <div>1</div>
+                        <p>Creating a new juice brand evoking the natural, exotic and sensual</p>
+                    </div>
+                    <div class="works-step clearfix">
+                        <div>2</div>
+                        <p>The leaf-like a shapes of the letters emphasise the idea, and the green colour suggests organicity</p>
+                    </div>
+                </div>
+            </div>
+             <div class="row">
+                 <img src="resources/img/pack.png" alt="packaging" class="app-screen js--wp-2">
+                    <img src="resources/img/pack2.png" alt="packaging" class="app-screen js--wp-2">
+                <div class="col span-1-of-2 steps-box">
+                    
+                </div>
+                <div class="col span-1-of-2 steps-box">
+                    <div class="works-step clearfix">
+                        <div>1</div>
+                        <p>Playing with shapes and colours typical of different territories.l</p>
+                    </div>
+                    <div class="works-step clearfix">
+                        <div>2</div>
+                        <p>Mixing illustrations and photos to give the image plasticity.</p>
+                    </div>
+                </div>
+            </div>
+            </section>
+        </a>
+         <a class="content-gallery" id="2litle">
+            <section class="section-steps">
+            <div class="row">
+                <h2>BREAKING BORDERS &mdash; Begin your journey without the fear of getting lost</h2>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-2 steps-box">
+                    <img src="resources/img/2litle_logo.png" alt="branding" class="app-screen js--wp-2">
+                </div>
+                <div class="col span-1-of-2 steps-box">
+                    <div class="works-step clearfix">
+                        <div>1</div>
+                        <p>GPS - like app
+                            Symbol recreates a road landscape</p>
+                    </div>
+                    <div class="works-step clearfix">
+                        <div>2</div>
+                        <p>Colours Blue (reliable and trustworthy, easily readable by computers) Green ( it reminds us of nature, positive, encouraging)</p>
+                    </div>
+                    <div class="works-step clearfix">
+                        <div>3</div>
+                        <p>Only lower - case characters with minimalistic lines giving them a mechanical feeling</p>
+                    </div>
+                </div>
+                </div>
+                 <div class="row">
+                
+                    <img src="resources/img/2litle_letter.png" alt="app on iPhone" class="app-screen js--wp-2">
+                    <img src="resources/img/2litle_letterback.png" alt="app on iPhone" class="app-screen js--wp-2">
+                    <img src="resources/img/2litle_card.png" alt="app on iPhone" class="app-screen js--wp-2">
+                
+                <div class="col span-1-of-2 steps-box">
+                    <div class="works-step clearfix">
+                        <div>4</div>
+                        <p>Creating a corporate campaign that conveys confidence in an innovative product, inviting us to come closer.</p>
+                    </div>
+                    <div class="works-step clearfix">
+                        <div>5</div>
+                        <p>Playing with colours and symbols to create a modern and long-lasting graphic.</p>
+                    </div>
+                    <div class="works-step clearfix">
+                        <div>6</div>
+                        <p>Corporate use of colour countertypes.</p>
+                    </div>
+                </div>
+                </div>
+                </section>
+        </a>
+        <a class="content-gallery" id="clowntown">
+            <section class="section-steps">
+            <div class="row">
+                <h2>Take a chance and discover... &mdash; your inner clown</h2>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-2 steps-box">
+                    <img src="resources/img/clown2.gif" alt="clowntown" class="app-screen js--wp-2">
+                </div>
+                <div class="col span-1-of-2 steps-box">
+                    <div class="works-step clearfix">
+                        <div>1</div>
+                        <p>The logo plays with the opposites, with the dichotomy in human nature
+                            The red circle and mouth represent a clowns face, both joyful and sad at the same time</p>
+                    </div>
+                    <div class="works-step clearfix">
+                        <div>2</div>
+                        <p>Both colours, red and black, allude to clowns, the first giving a feeling of warmth, approachability and passion while the later gives the logo good readability</p>
+                    </div>
+                    <div class="works-step clearfix">
+                        <div>3</div>
+                        <p>The font is simple, with calligraphic features, bringing it close to the public</p>
+                    </div>
+                </div>
+            </div>
+                <div class="row">
+                <div class="col span-1-of-2 steps-box">
+                    <img src="resources/img/pendon.png" alt="clowntown" class="app-screen js--wp-2">
+                    <img src="resources/img/posterClown.png" alt="clowntown" class="app-screen js--wp-2">
+                </div>
+                <div class="col span-1-of-2 steps-box">
+                    <div class="works-step clearfix">
+                        <div>4</div>
+                        <p>The advertising graphics are based on the principle of "everyone has a clown within" encouraging the audience to discover theirs.</p>
+                    </div>
+                    <div class="works-step clearfix">
+                        <div>5</div>
+                        <p>Through an introspective analysis, we can find a dichotomy between the social self and the imaginary one.</p>
+                    </div>
+                    <div class="works-step clearfix">
+                        <div>6</div>
+                        <p>The graphics use children´s imagery and bring them to life by making the two sides coexist in harmony.</p>
+                    </div>
+                    <div class="works-step clearfix">
+                        <div>7</div>
+                        <p>To convey this concept, I decided to use a type of illustration characterized by a primacy of geometric elements in a constructivist way, combined with powerful colours.</p>
+                    </div>
+                </div>
+            </div>
+            </section>
+        </a>
+        <a class="content-gallery" id="magnetic">
+             <section class="section-steps">
+                  <img src="resources/img/magneticint.png" alt="Magnetic" class="">
+            <div class="row">
+                <h2>Meet other mountain lovers &mdash; Magnetic</h2>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-2 steps-box">
+                    <img src="resources/img/magneticlogo.png" alt="Magnetic" class="app-screen js--wp-2">
+                </div>
+                <div class="col span-1-of-2 steps-box">
+                    <div class="works-step clearfix">
+                        <div>1</div>
+                        <p>The logo plays with the idea of mountains which at the same time to assembles a letter `M´</p>
+                    </div>
+                    <div class="works-step clearfix">
+                        <div>2</div>
+                        <p>Simple features, line brand based
+Modern typography with geometric lines and thin weight</p>
+                    </div>
+                    <div class="works-step clearfix">
+                        <div>3</div>
+                        <p>The predominance of height in the letter bringing us the risk to the mind as the magnetism of a mountain sports</p>
+                    </div>
+                </div>
+                </div>
+                <div class="row">
+                     <img src="resources/img/magnetic1.png" alt="Magnetic" class="app-screen js--wp-2">
+                <div class="col span-1-of-2 steps-box">
+                    <div class="works-step clearfix">
+                        <div>4</div>
+                        <p>For the creative piece, I worked mainly with the idea of a winter sports event. </p>
+                    </div>
+                    <div class="works-step clearfix">
+                        <div>5</div>
+                        <p>I wanted to create something "magnetic" to capture people's attention with a modern, clean and adaptive design, easily portable to different formats.</p>
+                    </div>
+                    <div class="works-step clearfix">
+                        <div>6</div>
+                        <p>I based the design on an invitation to get involved in the event, trying also to create a connection with the audience, in this case, people who practice winter sports.</p>
+                    </div>
+                </div>
+            </div>
+            </section>
+        </a>
+    <!-- CONTENT ASSOCIATED -->
+       
+        
+        <section class="section-testimonials" id="references">
+            <div class="row">
+                <h2>some references</h2>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-3">
+                   <blockquote>
+                        During the time that Laura developed his professional work in my
+                        company, she showed diligence and capacity at all times in the
+                        course of their work, which consisted in carrying out various
+                        activities within the framework of development for our customers.
+                        I am considering her as a person with excellent learning ability and
+                        high motivation to develop their work.
+                    <cite>26th August 2014,Jon Iglesias Alfambra,CEO Bocetos Marketing SL</cite>
+                    </blockquote>
+                </div>
+                <div class="col span-1-of-3">
+                   <blockquote>
+                        Laura worked with Arklu for a graphic design internship. Her role was to prepare sample imagery for a new YouTube toy unboxing channel. 
+                        We were extremely happy with her input, both in terms of effort, proactive attitude and professionalism. 
+                        Her work was timely, executed with a high degree of attention to detail and of a good quality. 
+                        <cite>31st March 2016, Lucie Follet, Arklu</cite>
+                    </blockquote>
+                </div>
+                <div class="col span-1-of-3">
+                    <blockquote> 
+                        Laura came to the company as an intern to help us develop clients websites with wordpress.
+                        From the beginning she showed a notable interest in learning and help the rest of the team. In a short time, she showed her designing skills, making beautiful websites with a good user experience, the clients she was attending gave a good feedback about their satisfaction. I really recommend her and I hope she continue improving her formation and developing her skills.
+                    <cite>19th January 2015,Alberto Sanchez (senior developer), Bocetos Marketing SL</cite>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+        
+        
+       
+        <section class="section-form" id="contact">
+            <div class="row">
+                <h2>I will be happy to hear from you</h2>
+            </div>
+            <div class="row">
+                <form method="post" action="#" class="contact-form">
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="name">Name</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="text" name="name" id="name" placeholder="Your name" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="email" name="email" id="email" placeholder="Your email" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="find-us">How did you find me?</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <select name="find-us" id="find-us">
+                                <option value="friends" selected>Friends</option>
+                                <option value="search">Search engine</option>
+                                <option value="ad">LinkedIn</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>Drop me a line</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <textarea name="message" placeholder="Your message"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>&nbsp;</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="submit" value="Send it!">
+                        </div>
+                    </div>
+                    
+                </form>
+                
+            </div>
+        </section>
+        
+        <footer>
+            <div class="row">
+                <div class="col span-1-of-2">
+                    <ul class="footer-nav">
+                        <li><a href="#">About me</a></li>
+                        <li><a href="#">Works</a></li>
+                        <li><a href="#">References</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col span-1-of-2">
+                    <ul class="social-links">
+                        <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+                        <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+                        <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
+                        <li><a href="#"><i class="ion-social-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <p>
+                    This webpage was created by Laura Vicente Using HTML5 and CSS3" <br>
+                    This webpage is for you! So go and have fun.
+                </p>
+                <p>
+                    Build with <i class="ion-ios-heart" style="color: #ea0000; padding: 0 3px;"></i> in the beautiful city of London, United Kingdom, February 2017.
+                </p>
+            </div>
+        </footer>
+        
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+    <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+    <script src="resources/js/script.js"></script>
+    
+    </body>  
+    
 </html>
