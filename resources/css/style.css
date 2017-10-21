@@ -393,6 +393,10 @@ header {
    /* margin-top: 70px;*/
 }
 
+.grid-item {
+    width: 300px
+}
+
 .app-screen {
     width: 68%;
 }

@@ -126,3 +126,43 @@
     .contact-form {width: 100%; }
 }
 
+/* isotope media queries */
+.grid {
+    margin: auto;
+}
+
+@media only screen and (min-width: 300px) {
+    .grid {
+        width: 300px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .grid {
+        width: 600px;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .grid {
+        width: 900px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .grid {
+        width: 1200px;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    .grid {
+        width: 1500px;
+    }
+}
+
+@media only screen and (min-width: 1800px) {
+    .grid {
+        width: 1800px;
+    }
+}

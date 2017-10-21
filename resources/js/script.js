@@ -84,4 +84,17 @@ $(document).ready(function() {
             icon.removeClass('ion-close-round');
         }        
     });
+    
+    /* isotype */
+    var $grid = $('.grid').isotope({
+      itemSelector: '.grid-item',
+      masonry: {
+        columnWidth: 300
+      }
+    });
+    
+    $('.filter-button-group .button').click(function () {
+        var filterClass = $(this).attr('data-filter');
+        $grid.isotope({ filter: filterClass });
+    });
 });
