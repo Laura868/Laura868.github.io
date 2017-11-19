@@ -193,17 +193,22 @@ input[type=submit]:active {
 }
 .filter-button-group .button{
     display: inline-block;
+    cursor:pointer;
     height: 40px;
     width: 200px;
     margin: 10px;
-    background-color: #e67e22;
+    background-color:#69AE45;
     text-align: center;
     color: white;
     border-radius: 6px;
-    padding: 3px;
+    padding: 7px;
     text-align: center;
     transition: background-color 0.2s, border 0.2s, color 0.2s;
-    border: 1px solid #e67e22;
+    -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
+    border: 1px solid #5C9942;
+}
+.filter-button-group .button:hover{
+    background-color: #5C9942;
 }
 
 
