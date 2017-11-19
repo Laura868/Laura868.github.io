@@ -187,6 +187,24 @@ input[type=submit]:active {
     border: 1px solid #cf6d17;
     color: #fff;
 }
+.filter-button-group{
+    margin-left: 8%;
+    
+}
+.filter-button-group .button{
+    display: inline-block;
+    height: 40px;
+    width: 200px;
+    margin: 10px;
+    background-color: #e67e22;
+    text-align: center;
+    color: white;
+    border-radius: 6px;
+    padding: 3px;
+    text-align: center;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+    border: 1px solid #e67e22;
+}
 
 
 /* ----------------------------------------------- */
@@ -306,7 +324,7 @@ header {
 /* ----------------------------------------------- */
 
 .section-features .long-copy {
-    margin-bottom: 30px;
+    margin-bottom: 0px;
 }
 
 
@@ -318,7 +336,6 @@ header {
 .section-gallery{
     overflow: hidden;
     height: auto;
-    background: #e8f6fe;
     padding: 0;
     
 }
