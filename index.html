@@ -910,7 +910,20 @@
     <script src="vendors/js/jquery.waypoints.min.js"></script>
     <script src="vendors/js/isotope.min.js"></script>
     <script src="resources/js/script.js"></script>
-    
-    </body>  
+		
+	<?php
+
+	function rm_query_string( $src ){   
+    $parts = explode( '?ver', $src );
+    return $parts[0];
+}
+
+if ( !is_admin() ) {
+    add_filter( 'script_loader_src', 'rm_query_string', 15, 1 );
+    add_filter( 'style_loader_src', 'rm_query_string', 15, 1 );
+}
+	?>
+		
+    </body>  	
     
 </html>
