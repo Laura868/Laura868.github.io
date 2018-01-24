@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function(){
     
     
     /* For the sticky navigation */
@@ -24,8 +24,8 @@ $(document).ready(function() {
     
     
     /* Navigation scroll */
-    $(function() {
-      $('a[href*=#]:not([href=#])').click(function() {
+    $(function(){
+      $('a[href*=#]:not([href=#])').click(function(){
         if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
           var hash = this.hash;
           var target = $(this.hash);
