@@ -403,7 +403,7 @@ img {
     -webkit-transform: rotateY(180deg);
     transform: rotateY( 200deg );
 }
-#card1
+.card1
 {
     background-color: white;
 }
@@ -548,8 +548,7 @@ div .backTitle{
 }
 .brand{
     text-align: center;
-    padding: 25px; 
-    
+    padding: 25px;	
 }
 .videoProto{
     text-align: center;
