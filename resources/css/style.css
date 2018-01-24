@@ -535,7 +535,21 @@ div .backTitle{
     width: auto;
     margin-right: 10px;
 }
-
+.blueprint{
+    text-align: center;
+    padding: 25px; 
+    
+}
+.brand{
+    text-align: center;
+    padding: 25px; 
+    
+}
+.videoProto{
+    text-align: center;
+    padding: 25px; 
+    
+}
 
 /* ----------------------------------------------- */
 /* TESTIMONIALS */
