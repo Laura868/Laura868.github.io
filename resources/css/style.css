@@ -314,7 +314,7 @@ header {
     left: 0;
     width: 100%;
     background-color: rgba(255, 255, 255, 0.98);
-    box-shadow: 0 2px 2px #efefef;
+    box-shadow: 0 2px 2px #CCC;
     z-index: 9999;
 }
 
