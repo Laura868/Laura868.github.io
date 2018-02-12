@@ -393,7 +393,7 @@ div .backTitle{
 
 
 .section-gallery{
-    overflow: hidden;
+   /*overflow: hidden;*/
     height: auto;
     
 }
@@ -518,8 +518,9 @@ div .backTitle{
 }
 .videoProto{
     text-align: center;
-    padding: 25px; 
-    
+    padding: 25px;
+	width= 560px;
+	height= 315px;
 }
 
 
