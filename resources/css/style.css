@@ -393,7 +393,7 @@ div .backTitle{
 
 
 .section-gallery{
-   /*overflow: hidden;*/
+    overflow: hidden;
     height: auto;
     
 }
