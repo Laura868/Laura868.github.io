@@ -424,6 +424,29 @@ div .backTitle{
     border: none;
 }
 
+.overlay {
+  position: absolute;
+  top: 40%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 20%;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+  background-color:rgba(102,51,153,0.9);
+}
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
 .content-gallery {
     visibility: hidden;
     height: 0;
@@ -493,6 +516,9 @@ div .backTitle{
     width: 300px
 }
 
+.grid-item:hover .overlay {
+  opacity: 1;
+}
 .app-screen {
     width: 68%;
 }
