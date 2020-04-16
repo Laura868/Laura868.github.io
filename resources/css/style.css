@@ -193,7 +193,8 @@ input[type=submit]:active {
     color: #fff;
 }
 .filter-button-group{
-    margin-left: 9%;
+    margin-left: 20%;
+    margin-bottom: 1%;
     
 }
 .filter-button-group .button{
