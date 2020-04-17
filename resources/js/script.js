@@ -86,7 +86,7 @@ $(document).ready(function(){
     });
     
     /* isotype */
-    var $grid = $('.grid').isotope({
+    $grid = $('.grid').isotope({
       itemSelector: '.grid-item',
       masonry: {
         columnWidth: 300
@@ -99,3 +99,12 @@ $(document).ready(function(){
     });
 });
 
+$(window).load(function(){
+      $grid = $('.grid').isotope({
+      itemSelector: '.grid-item',
+      masonry: {
+        columnWidth: 300
+      }
+    });
+});
+ 
