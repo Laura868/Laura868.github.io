@@ -63,7 +63,7 @@
         margin: 0 0 4% 0;
     }
     
-    
+    .filter-button-group .button {display: none;}
     .main-nav { display: none; }
     .mobile-nav-icon {display: inline-block;}
     
