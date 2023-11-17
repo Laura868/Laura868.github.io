@@ -22,8 +22,7 @@ body {
     background-color: #fff;
     color: #555;
     font-family: 'Lato', 'Arial', sans-serif;
-    font-weight: 300;
-	/*line-height: 35px; */
+    font-weight: 350;
     font-size: 20px;
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
@@ -62,7 +61,7 @@ h1,
 h2,
 h3 {
 	font-family:sans-serif;
-    font-weight: 300;
+    font-weight: 350;
     text-transform: uppercase;
 }
 
@@ -145,7 +144,7 @@ a:active {
 input[type=submit] {
     display: inline-block;
     padding: 10px 30px;
-    font-weight: 300;
+    font-weight: 350;
     text-decoration: none;
     border-radius: 200px;
     -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
