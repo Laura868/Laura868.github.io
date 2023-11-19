@@ -578,7 +578,7 @@ div .backTitle{
 }
 .contentcentered{
     text-align: center;
-    padding: 25px; 
+    
     
 }
 .brand{
@@ -587,7 +587,6 @@ div .backTitle{
 }
 .videoProto{
     text-align: center;
-    padding: 25px;
 	width= 560px;
 	height= 315px;
 }
