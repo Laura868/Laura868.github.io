@@ -17,9 +17,6 @@ p{
 	line-height: 168%;
 }
 
-a{
-    color: #888;}
-
 html,
 body {
     background-color: #fff;
@@ -586,8 +583,8 @@ div .backTitle{
     
 }
 .brand{
-    text-align: center;
-    padding: 25px;	
+   
+
 }
 .videoProto{
     text-align: center;
@@ -656,13 +653,13 @@ footer p {
 .js--wp-3
 {
     opacity: 0;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
 }
 
 .js--wp-4 {
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
 }
 
 .js--wp-1.animated,
