@@ -45,11 +45,11 @@ body {
 
 .row {
     max-width: 1140px;
-    margin: 0 auto;
+    margin: 0px auto;
 }
 
 section {
-    padding: 55px 0;
+    padding: 15px 0;
 }
 
 .box {
