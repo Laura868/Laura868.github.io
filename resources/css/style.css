@@ -80,6 +80,7 @@ h2 {
     word-spacing: 2px;
     text-align: center;
     margin-bottom: 30px;
+    margin-top: 25px;
     letter-spacing: 1px;
 }
 
@@ -384,6 +385,7 @@ header {
     position:relative;
     -webkit-perspective:1000;
     perspective:1000;
+    padding: 37px;
 
 }
 .card {
