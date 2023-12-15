@@ -233,7 +233,7 @@ input[type=submit]:active {
     text-align: center;
     transition: background-color 0.2s, border 0.2s, color 0.2s;
     -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
-    border: 1px solid #5C9942;
+    
 }
 .filter-button-group .button:hover{
     background-color: #5C9942;
