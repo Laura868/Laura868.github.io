@@ -102,6 +102,7 @@ h2:after {
 #clientlogosrow {
 display: block;
 margin: 0px;
+margin-left: 10%;
 padding: 0px;
 position: relative;
 top: 7px;
